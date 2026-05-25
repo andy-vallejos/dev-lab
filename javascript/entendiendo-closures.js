@@ -1,7 +1,7 @@
 function crearJugador(nombre) {
   let nombreJugador = nombre;
   let xp = 0;
-  let level = Math.floor(xp / 100) + 1;
+  let level = 1;
 
   return {
     ganarExperiencia(valor) {
